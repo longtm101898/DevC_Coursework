@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+      integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX"
+      crossorigin="anonymous"
+    />
+    <link href="./test.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-6">
+          <h2>Number Guessing Game</h2>
+          <p>Student name: Trần Minh Long</p>
+          <p id="result"></p>
+          <div class="form-group">
+            <label class="bmd-label-floating" for="input1"
+              >Please type any number:
+            </label>
+            <input
+              class="form-control col-md-6"
+              id="input1"
+              type="number"
+              required
+            />
+            <small class="form-text text-muted"
+              >You have to guess a number.</small
+            >
+            <div id="invalid-feed"></div>
+          </div>
+          <button
+            id="btn1"
+            onclick="click()"
+            type="button"
+            class="btn btn-outline-info btn-lg"
+            title="Guess the number"
+          >
+            Guess
+          </button>
+          <p id="guessingNums"></p>
+        </div>
+        <div class="col-6">
+          <h2>Demo:</h2>
+          <img id="gifImg" src="./week1.gif" alt="demoGif" width="600" />
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"
+    integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
+    integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    $(document).ready(function() {
+      $("body").bootstrapMaterialDesign();
+    });
+  </script>
+  <script src="./test.js"></script>
+</html>
