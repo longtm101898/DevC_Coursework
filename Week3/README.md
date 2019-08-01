@@ -10,7 +10,7 @@ react-native-svg-charts@5.3.0, react-native-svg-uri@1.2.3
 # Live Demo: 
 https://expo.io/@longtm/reactnativedevcweek3
 # Gif Demo:
-![https://i.imgur.com/oueWvgc.gifv](https://i.imgur.com/oueWvgc.gifv)
+https://i.imgur.com/oueWvgc.gifv
 # Root Web:
 http://shoptml.ml/index.html
 ## Review:
